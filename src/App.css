@@ -1,0 +1,43 @@
+:root {
+  --horizontal-divider: 1px solid black;
+}
+
+.App {
+  text-align: center;
+}
+
+.page-header {
+  display: flex;
+  padding: 40px 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+.main {
+  padding: 0 10%;
+  border-top: var(--horizontal-divider);
+  border-bottom: var(--horizontal-divider);
+}
+
+.nav {
+  padding: 20px 0;
+  border-bottom: var(--horizontal-divider);
+}
+
+.slick-container {
+  padding: 30px 20px;
+}
+
+.slick {
+  padding: 100px 65px;
+  background-color: rgb(224, 224, 224);
+
+}
+
+.episode-container {
+  margin: 10px 0 30px;
+}
+
+.episode {
+  padding: 40px;
+}
